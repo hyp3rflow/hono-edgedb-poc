@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "start": "deno run -A --unstable mod.ts",
+    "gen": "deno run -A --unstable ../edgedb-js/edgedb-deno/_src/reflection/cli.ts --target deno"
+  },
+  "importMap": "./import_map.json"
+}

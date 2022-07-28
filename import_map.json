@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "$std/": "https://deno.land/std@0.149.0/",
+    "$eql": "./utils/edgedb.ts",
+
+    "hono": "https://deno.land/x/hono@v2.0.5/mod.ts",
+    "zod": "https://deno.land/x/zod@v3.17.10/mod.ts",
+
+    "eql-js/": "./dbschema/edgeql-js/",
+    "eql/": "../edgedb-js/edgedb-deno/"
+  }
+}
